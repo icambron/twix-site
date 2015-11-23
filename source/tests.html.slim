@@ -1,0 +1,15 @@
+html
+  head
+    link rel="stylesheet" href="vendor/stylesheets/mocha.min.css"
+    script src="vendor/javascripts/mocha.min.js"
+    script src="vendor/javascripts/moment-with-locales.min.js"
+    script src="twix.js/dist/twix.js"
+
+#mocha
+  javascript:
+    mocha.setup('bdd')
+
+script src="twix.js/test/twix.spec.js"
+
+javascript:
+  mocha.run();
