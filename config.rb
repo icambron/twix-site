@@ -1,10 +1,10 @@
 activate :livereload
 activate :relative_assets
 
-ignore(/^twix.js\/(?:(?!dist|test))/)
-ignore(/^partials/)
-ignore(/fonts\/bootstrap/)
-ignore(/jquery\.js/)
+ignore /^twix.js\/(?:(?!dist|test))/
+ignore /^partials/
+ignore /fonts\/bootstrap/
+ignore /jquery\.js/
 
 page("/"){@tab = "home"}
 page("/docs*"){@tab = "docs"}
