@@ -150,10 +150,10 @@ DEPENDENCIES
   middleman-slim
   middleman-sprockets
   redcarpet
-  rouge (= 1.9.0)
+  rouge
   slim
   therubyracer
   uglifier
 
 BUNDLED WITH
-   1.10.6
+   1.11.2

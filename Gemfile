@@ -1,4 +1,3 @@
-ruby "2.2.3"
 source "https://rubygems.org"
 
 gem "slim"
@@ -8,7 +7,7 @@ gem "middleman-livereload"
 gem "middleman-slim"
 gem "middleman-sprockets"
 
-gem "rouge", "1.9.0"
+gem "rouge"
 gem "redcarpet"
 gem "therubyracer"
 gem "uglifier"
