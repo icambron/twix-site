@@ -13,3 +13,7 @@ cd build
 git add .
 git commit -am "build"
 git push -f origin gh-pages
+
+cd ..
+git commit -am "build"
+git push -f origin master
